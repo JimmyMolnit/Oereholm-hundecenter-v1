@@ -1,33 +1,33 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\ham_7\\OneDrive\\Dokumenter\\GitHub\\Oereholm-hundecenter-v1\\",
+  "WorkspaceRootPath": "C:\\Users\\ham_7\\source\\repos\\Oereholm-hundecenter-v1\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\ham_7\\OneDrive\\Dokumenter\\GitHub\\Oereholm-hundecenter-v1\\Miljoehal.html||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Miljoehal.html||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\ham_7\\OneDrive\\Dokumenter\\GitHub\\Oereholm-hundecenter-v1\\index.html||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:index.html||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\ham_7\\OneDrive\\Dokumenter\\GitHub\\Oereholm-hundecenter-v1\\Arealudlejning.html||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\ham_7\\source\\repos\\Oereholm-hundecenter-v1\\Arealudlejning.html||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Arealudlejning.html||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\ham_7\\OneDrive\\Dokumenter\\GitHub\\Oereholm-hundecenter-v1\\Adfaerdsbehandling.html||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\ham_7\\source\\repos\\Oereholm-hundecenter-v1\\Miljoehal.html||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Miljoehal.html||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\ham_7\\source\\repos\\Oereholm-hundecenter-v1\\index.html||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:index.html||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\ham_7\\source\\repos\\Oereholm-hundecenter-v1\\Adfaerdsbehandling.html||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Adfaerdsbehandling.html||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\ham_7\\OneDrive\\Dokumenter\\GitHub\\Oereholm-hundecenter-v1\\Holdundervisning.html||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\ham_7\\source\\repos\\Oereholm-hundecenter-v1\\Holdundervisning.html||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Holdundervisning.html||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\ham_7\\OneDrive\\Dokumenter\\GitHub\\Oereholm-hundecenter-v1\\Forloebstraening.html||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\ham_7\\source\\repos\\Oereholm-hundecenter-v1\\Forloebstraening.html||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Forloebstraening.html||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\ham_7\\OneDrive\\Dokumenter\\GitHub\\Oereholm-hundecenter-v1\\Stylestartside.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\ham_7\\source\\repos\\Oereholm-hundecenter-v1\\Stylestartside.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
       "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Stylestartside.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
     }
   ],
@@ -38,19 +38,19 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 2,
+          "SelectedChildIndex": 6,
           "Children": [
             {
               "$type": "Bookmark",
-              "Name": "ST:0:0:{cce594b6-0c39-4442-ba28-10c64ac7e89f}"
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
             },
             {
               "$type": "Document",
               "DocumentIndex": 6,
               "Title": "Stylestartside.css",
-              "DocumentMoniker": "C:\\Users\\ham_7\\OneDrive\\Dokumenter\\GitHub\\Oereholm-hundecenter-v1\\Stylestartside.css",
+              "DocumentMoniker": "C:\\Users\\ham_7\\source\\repos\\Oereholm-hundecenter-v1\\Stylestartside.css",
               "RelativeDocumentMoniker": "Stylestartside.css",
-              "ToolTip": "C:\\Users\\ham_7\\OneDrive\\Dokumenter\\GitHub\\Oereholm-hundecenter-v1\\Stylestartside.css",
+              "ToolTip": "C:\\Users\\ham_7\\source\\repos\\Oereholm-hundecenter-v1\\Stylestartside.css",
               "RelativeToolTip": "Stylestartside.css",
               "ViewState": "AgIAAEgAAAAAAAAAAAAAAGUAAAADAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
@@ -58,11 +58,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
               "Title": "Miljoehal.html",
-              "DocumentMoniker": "C:\\Users\\ham_7\\OneDrive\\Dokumenter\\GitHub\\Oereholm-hundecenter-v1\\Miljoehal.html",
+              "DocumentMoniker": "C:\\Users\\ham_7\\source\\repos\\Oereholm-hundecenter-v1\\Miljoehal.html",
               "RelativeDocumentMoniker": "Miljoehal.html",
-              "ToolTip": "C:\\Users\\ham_7\\OneDrive\\Dokumenter\\GitHub\\Oereholm-hundecenter-v1\\Miljoehal.html",
+              "ToolTip": "C:\\Users\\ham_7\\source\\repos\\Oereholm-hundecenter-v1\\Miljoehal.html",
               "RelativeToolTip": "Miljoehal.html",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAACMAAAAWAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001512|",
@@ -71,52 +71,49 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 2,
               "Title": "index.html",
-              "DocumentMoniker": "C:\\Users\\ham_7\\OneDrive\\Dokumenter\\GitHub\\Oereholm-hundecenter-v1\\index.html",
+              "DocumentMoniker": "C:\\Users\\ham_7\\source\\repos\\Oereholm-hundecenter-v1\\index.html",
               "RelativeDocumentMoniker": "index.html",
-              "ToolTip": "C:\\Users\\ham_7\\OneDrive\\Dokumenter\\GitHub\\Oereholm-hundecenter-v1\\index.html",
+              "ToolTip": "C:\\Users\\ham_7\\source\\repos\\Oereholm-hundecenter-v1\\index.html",
               "RelativeToolTip": "index.html",
               "ViewState": "AgIAAA8AAAAAAAAAAAAAACMAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001512|",
-              "WhenOpened": "2025-09-30T18:59:49.127Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-09-30T18:59:49.127Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 4,
               "Title": "Holdundervisning.html",
-              "DocumentMoniker": "C:\\Users\\ham_7\\OneDrive\\Dokumenter\\GitHub\\Oereholm-hundecenter-v1\\Holdundervisning.html",
+              "DocumentMoniker": "C:\\Users\\ham_7\\source\\repos\\Oereholm-hundecenter-v1\\Holdundervisning.html",
               "RelativeDocumentMoniker": "Holdundervisning.html",
-              "ToolTip": "C:\\Users\\ham_7\\OneDrive\\Dokumenter\\GitHub\\Oereholm-hundecenter-v1\\Holdundervisning.html",
+              "ToolTip": "C:\\Users\\ham_7\\source\\repos\\Oereholm-hundecenter-v1\\Holdundervisning.html",
               "RelativeToolTip": "Holdundervisning.html",
               "ViewState": "AgIAABIAAAAAAAAAAAAAACUAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001512|",
-              "WhenOpened": "2025-09-30T18:59:49.024Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-09-30T18:59:49.024Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 5,
               "Title": "Forloebstraening.html",
-              "DocumentMoniker": "C:\\Users\\ham_7\\OneDrive\\Dokumenter\\GitHub\\Oereholm-hundecenter-v1\\Forloebstraening.html",
+              "DocumentMoniker": "C:\\Users\\ham_7\\source\\repos\\Oereholm-hundecenter-v1\\Forloebstraening.html",
               "RelativeDocumentMoniker": "Forloebstraening.html",
-              "ToolTip": "C:\\Users\\ham_7\\OneDrive\\Dokumenter\\GitHub\\Oereholm-hundecenter-v1\\Forloebstraening.html",
+              "ToolTip": "C:\\Users\\ham_7\\source\\repos\\Oereholm-hundecenter-v1\\Forloebstraening.html",
               "RelativeToolTip": "Forloebstraening.html",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAADEAAAALAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001512|",
-              "WhenOpened": "2025-09-30T18:59:48.93Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-09-30T18:59:48.93Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 0,
               "Title": "Arealudlejning.html",
-              "DocumentMoniker": "C:\\Users\\ham_7\\OneDrive\\Dokumenter\\GitHub\\Oereholm-hundecenter-v1\\Arealudlejning.html",
+              "DocumentMoniker": "C:\\Users\\ham_7\\source\\repos\\Oereholm-hundecenter-v1\\Arealudlejning.html",
               "RelativeDocumentMoniker": "Arealudlejning.html",
-              "ToolTip": "C:\\Users\\ham_7\\OneDrive\\Dokumenter\\GitHub\\Oereholm-hundecenter-v1\\Arealudlejning.html",
+              "ToolTip": "C:\\Users\\ham_7\\source\\repos\\Oereholm-hundecenter-v1\\Arealudlejning.html",
               "RelativeToolTip": "Arealudlejning.html",
-              "ViewState": "AgIAADAAAAAAAAAAAAAAAEsAAAAMAAAAAAAAAA==",
+              "ViewState": "AgIAADMAAAAAAAAAAAAAAHIAAAAeAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001512|",
               "WhenOpened": "2025-09-30T18:59:48.836Z",
               "EditorCaption": ""
@@ -125,14 +122,13 @@
               "$type": "Document",
               "DocumentIndex": 3,
               "Title": "Adfaerdsbehandling.html",
-              "DocumentMoniker": "C:\\Users\\ham_7\\OneDrive\\Dokumenter\\GitHub\\Oereholm-hundecenter-v1\\Adfaerdsbehandling.html",
+              "DocumentMoniker": "C:\\Users\\ham_7\\source\\repos\\Oereholm-hundecenter-v1\\Adfaerdsbehandling.html",
               "RelativeDocumentMoniker": "Adfaerdsbehandling.html",
-              "ToolTip": "C:\\Users\\ham_7\\OneDrive\\Dokumenter\\GitHub\\Oereholm-hundecenter-v1\\Adfaerdsbehandling.html",
+              "ToolTip": "C:\\Users\\ham_7\\source\\repos\\Oereholm-hundecenter-v1\\Adfaerdsbehandling.html",
               "RelativeToolTip": "Adfaerdsbehandling.html",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABwAAABHAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001512|",
-              "WhenOpened": "2025-09-30T18:59:47.158Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-09-30T18:59:47.158Z"
             }
           ]
         }

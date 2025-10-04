@@ -97,9 +97,35 @@ section li {
     /*background-color: #b4a7d6;*/
 }
 
-/*area {
-    border: 5px #f00 solid;
-}*/
+.container {
+    display: grid;
+    grid-template-columns: 100px 200px 300px;
+    grid-template-rows: 100px 150px
+}
+
+.itema {
+    background-color: tomato
+}
+
+.itemb {
+    background-color: mediumorchid
+}
+
+.itemc {
+    background-color: royalblue
+}
+
+.itemd {
+    background-color: mediumseagreen
+}
+
+.iteme {
+    background-color: orange
+}
+
+.itemf {
+    background-color: gray
+}
 
 
 

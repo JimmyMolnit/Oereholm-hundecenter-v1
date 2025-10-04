@@ -69,10 +69,17 @@ aside {
     padding: .5em;
     /*background-color: #b4a7d6;*/
 }
+/*div div {
+    float: left;
+    width: 100%;
+    padding: .5em;
+}*/
 
 footer {
     background-color: #b6d7a8;
     padding: .25em 1em;
+    float: left;
+    width: 100%;
 }
 
 .self-clear::after {
@@ -101,8 +108,8 @@ section li {
     display: grid;
     grid-template-columns: 33% 34% 33%;
     grid-template-rows: 300px 300px 300px;
-    /*text-align: center;*/
-    margin:auto;
+    text-align: center;
+    /*margin:auto;*/
 }
 /*
 .itema {

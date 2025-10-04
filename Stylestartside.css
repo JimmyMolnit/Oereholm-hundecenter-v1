@@ -101,7 +101,7 @@ section li {
     display: grid;
     grid-template-columns: 33% 34% 33%;
     grid-template-rows: 200px 200px;
-    margin:auto;
+    /*margin:auto;*/
 }
 
 .itema {

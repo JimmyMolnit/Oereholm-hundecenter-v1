@@ -101,33 +101,38 @@ section li {
     display: grid;
     grid-template-columns: 33% 34% 33%;
     grid-template-rows: 200px 200px;
-    text-align: center
+    text-align: center;
     /*margin:auto;*/
 }
 
 .itema {
     background-color: tomato;
-
+    text-align: center;
 }
 
 .itemb {
     background-color: mediumorchid;
+    text-align: center;
 }
 
 .itemc {
     background-color: royalblue;
+    text-align: center;
 }
 
 .itemd {
     background-color: mediumseagreen;
+    text-align: center;
 }
 
 .iteme {
     background-color: orange;
+    text-align: center;
 }
 
 .itemf {
     background-color: gray;
+    text-align: center;
 }
 
 

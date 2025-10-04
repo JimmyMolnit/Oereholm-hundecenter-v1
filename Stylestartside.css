@@ -104,27 +104,28 @@ section li {
 }
 
 .itema {
-    background-color: tomato
+    background-color: tomato;
+    text-align: center;
 }
 
 .itemb {
-    background-color: mediumorchid
+    background-color: mediumorchid;
 }
 
 .itemc {
-    background-color: royalblue
+    background-color: royalblue;
 }
 
 .itemd {
-    background-color: mediumseagreen
+    background-color: mediumseagreen;
 }
 
 .iteme {
-    background-color: orange
+    background-color: orange;
 }
 
 .itemf {
-    background-color: gray
+    background-color: gray;
 }
 
 

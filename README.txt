@@ -19,3 +19,4 @@ at have en del fyldtekst for at man kunne se det virker.
 
 Siden er analyseret med Wave og der er ingen fejl.
 CSS er analyseret med https://jigsaw.w3.org/ og der er ingen fejl.
+HTML er analyseret med https://validator.w3.org/ og der er ingen fejl.

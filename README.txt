@@ -16,3 +16,6 @@ Dog har jeg leget med Dynamisk CSS på galleri og Event og det virker overaskende
 
 På Arealudlejning kan man klikke på kortet og komme til beskrivelsen af det område man har klikket på har dog været nød til 
 at have en del fyldtekst for at man kunne se det virker.
+
+Siden er analyseret med Wave og der er ingen fejl.
+CSS er analyseret med https://jigsaw.w3.org/ og der er ingen fejl.

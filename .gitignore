@@ -1,1 +1,3 @@
 /.vs/Oereholm-hundecenter-v1/FileContentIndex
+*.db-shm
+*.sqlite

@@ -10,17 +10,30 @@
     body {
         color: tomato;
     }
+        .container{
+    grid-template-columns: 100%;
+    grid-template-rows: 300px 300px 300px;
+    }
 }
 @media screen and (min-width: 768px) and (max-width: 1023px) {
     body {
         color: orange;
     }
+    .container{
+    grid-template-columns: 50% 50%;
+    grid-template-rows: 300px 300px 300px;
+
+    }
 }
 @media screen and (min-width: 1024px) {
-     body {  
-         color: royalblue;
-        }
+    body {
+        color: royalblue;
     }
+    .container {
+        grid-template-columns: 33% 34% 33%;
+        grid-template-rows: 300px 300px 300px;
+    }
+}
 
     body {
         margin: auto;
@@ -124,8 +137,8 @@
 
     .container {
         display: grid;
-        grid-template-columns: 33% 34% 33%;
-        grid-template-rows: 300px 300px 300px;
+        /*grid-template-columns: 33% 34% 33%;*/
+        /*grid-template-rows: 300px 300px 300px;*/
         /*text-align: center;*/
         margin: auto;
     }

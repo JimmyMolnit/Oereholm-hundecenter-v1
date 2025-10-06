@@ -24,7 +24,7 @@
         color: orange;
     }*/
     .galleri{
-        grid-template-columns: 100%;
+        grid-template-columns: 50% 50%;
         grid-template-rows: 300px 300px 300px;
     }
     .event {

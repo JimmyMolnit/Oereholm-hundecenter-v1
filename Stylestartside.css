@@ -150,12 +150,12 @@
         display: grid;
         /*grid-template-columns: 33% 34% 33%;*/
         /*grid-template-rows: 300px 300px 300px;*/
-        /*text-align: center;*/
+        text-align: center;
         margin: auto;
     }
     .event {
         display: grid;
-        /*text-align: center;*/
+        text-align: center;
         margin: auto;
     }
 /*

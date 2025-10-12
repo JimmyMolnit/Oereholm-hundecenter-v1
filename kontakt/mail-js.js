@@ -51,18 +51,18 @@ document.querySelector("#submit").addEventListener("click", function (event) {
     if (allowedToSend) {
         allowedToSend = false;
     }
-    if (document.querySelector("#form input[name='vorname']").value != ""
-            && document.querySelector("#form input[name='nachname']").value != ""
+    if (document.querySelector("#form input[name='fornavn']").value != ""
+            && document.querySelector("#form input[name='efternavn']").value != ""
             && document.querySelector("#form input[name='email']").value != ""
-            && document.querySelector("#form textarea[name='nachricht']").value != ""
-// hier kann man eigene Pflichtfelder nach selbem Schema einbauen
+            && document.querySelector("#form textarea[name='besked']").value != ""
+// Her kan du tilføje dine egne obligatoriske felter i henhold til samme skema
             && document.querySelector("#form input[name='pot']").value == ""
-            && isOverButton) { // der Honeypot
+        && isOverButton) { // honningkrukken
         const regexMail = /[!#$%&'\*\+\-\/=\?^_`\.{\|}~\w].*@[\w\-\._~]*\.[a-z]{2,}$/g;
         const checkMail = regexMail.test(document.querySelector("#form input[name='email']").value);
         if (checkMail) {
             const data = new FormData(form);
-            fetch("https://drive.google.com/file/d/1l_jZmCEsaARjTjpg-fg9RupqW7PeAgf8/view?usp=sharing", {// der Pfad zur PHP-Datei
+            fetch("https://jgmolnit.dk/mail.php", {// stien til PHP- filen
                 method: "POST",
                 body: data
             })
@@ -70,17 +70,17 @@ document.querySelector("#submit").addEventListener("click", function (event) {
                         for (let el of document.querySelectorAll("#form input,#form textarea")) {
                             el.value = "";
                         }
-                        setPopup("Danke, Email versendet!");
+                        setPopup("Tak, Emailen er sendt!");
                     })
                     .catch(function () {
                         allowedToSend = true;
-                        alert("Fehler");
+                        alert("Fejler");
                     });
         } else {
-            setPopup("Email nicht valide!");
+            setPopup("Email ikke valid!");
         }
     } else {
 
-        setPopup("Bitte Pflichtfelder ausfüllen!");
+        setPopup("Udfyld venligst de obligatoriske felter!");
     }
-});
+}); 

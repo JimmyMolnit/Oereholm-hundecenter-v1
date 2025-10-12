@@ -1,0 +1,86 @@
+var allowedToSend = true;
+var isOverButton = false;
+function setPopup(text) {
+    var isOver = false;
+    const popup = document.createElement("div");
+    popup.className = "bg-underlay";
+    popup.innerHTML = '<div class="popup"><div class="popup-inner">' + text + '</div><div id="closer">×</div></div>';
+    document.querySelector("body").appendChild(popup);
+
+    setTimeout(function () {
+        document.querySelector(".popup").classList.add("opacity");
+    }, 0);
+
+    function getOut() {
+        document.querySelector(".popup").classList.remove("opacity");
+        setTimeout(function () {
+            document.querySelector(".bg-underlay").remove();
+            allowedToSend = true;
+        }, 400);
+    }
+    document.querySelector("#closer").addEventListener("click", function () {
+        getOut();
+    });
+    document.querySelector(".bg-underlay").addEventListener("click", function () {
+
+        if (!isOver) {
+            getOut();
+        }
+    })
+    document.querySelector(".popup").addEventListener("mouseenter", function () {
+        isOver = true;
+    })
+    document.querySelector(".popup").addEventListener("mouseleave", function () {
+        isOver = false;
+    })
+}
+document.querySelector("#submit").addEventListener("mouseover", function (event) {
+    isOverButton = true;
+    });
+document.querySelector("#submit").addEventListener("mouseout", function (event) {
+    isOverButton = false;
+    });    
+
+
+
+document.querySelector("#submit").addEventListener("click", function (event) {
+    //event.preventDefault();
+    if (!allowedToSend) {
+        return false;
+    }
+    if (allowedToSend) {
+        allowedToSend = false;
+    }
+    if (document.querySelector("#form input[name='vorname']").value != ""
+            && document.querySelector("#form input[name='nachname']").value != ""
+            && document.querySelector("#form input[name='email']").value != ""
+            && document.querySelector("#form textarea[name='nachricht']").value != ""
+// hier kann man eigene Pflichtfelder nach selbem Schema einbauen
+            && document.querySelector("#form input[name='pot']").value == ""
+            && isOverButton) { // der Honeypot
+        const regexMail = /[!#$%&'\*\+\-\/=\?^_`\.{\|}~\w].*@[\w\-\._~]*\.[a-z]{2,}$/g;
+        const checkMail = regexMail.test(document.querySelector("#form input[name='email']").value);
+        if (checkMail) {
+            const data = new FormData(form);
+            fetch("mail.php", {// der Pfad zur PHP-Datei
+                method: "POST",
+                body: data
+            })
+                    .then(function () {
+                        for (let el of document.querySelectorAll("#form input,#form textarea")) {
+                            el.value = "";
+                        }
+                        setPopup("Danke, Email versendet!");
+                    })
+                    .catch(function () {
+                        allowedToSend = true;
+                        alert("Fehler");
+                    });
+        } else {
+            setPopup("Email nicht valide!");
+        }
+    } else {
+
+        setPopup("Bitte Pflichtfelder ausfüllen!");
+    }
+});

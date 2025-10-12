@@ -62,7 +62,7 @@ document.querySelector("#submit").addEventListener("click", function (event) {
         const checkMail = regexMail.test(document.querySelector("#form input[name='email']").value);
         if (checkMail) {
             const data = new FormData(form);
-            fetch("C:\Users\ham_7\OneDrive\Dokumenter\GitHub\Oereholm-hundecenter-v1\kontakt", {// der Pfad zur PHP-Datei
+            fetch("file://C:/Users/ham_7/OneDrive/Dokumenter/GitHub/Oereholm-hundecenter-v1/kontakt", {// der Pfad zur PHP-Datei
                 method: "POST",
                 body: data
             })

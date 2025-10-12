@@ -1,5 +1,13 @@
 var allowedToSend = true;
 var isOverButton = false;
+
+function GemIFil(Tekst){
+    const fs = require('fs')
+    fs.appendFile(Kontaktkald.txt, Tekst, err =>)
+    if (err) {
+        console.err;
+        return;
+    }
 function setPopup(text) {
     var isOver = false;
     const popup = document.createElement("div");
@@ -82,11 +90,5 @@ document.querySelector("#submit").addEventListener("click", function (event) {
         setPopup("Udfyld venligst de obligatoriske felter!");
     }
 });
-Function GemIFil(Tekst){
-    const fs = require('fs')
-    fs.appendFile(Kontaktkald.txt, Tekst, err =>)
-    if (err) {
-        console.err;
-        return;
-    }
+
 }

@@ -24,7 +24,7 @@ $header = array(
 'Content-type' => 'text/plain; charset=utf-8',
 'From' => 'info@jgmolnit.dk' // Dit eget domæne skal angives her
 'Reply-To' => $email,
-'X-Mailer' => 'PHP/' . phpversion()
+'X-Mailer' => 'PHP/' . phpversion(8.4)
 );
 
 mail($modtager, $reference, $besked, $header);

@@ -62,7 +62,7 @@ document.querySelector("#submit").addEventListener("click", function (event) {
         const checkMail = regexMail.test(document.querySelector("#form input[name='email']").value);
         if (checkMail) {
             const data = new FormData(form);
-            fetch("https://jgmolnit.dk/mail.php", {// stien til PHP- filen
+            fetch("mail.php", {// stien til PHP- filen
                 method: "POST",
                 body: data
             })

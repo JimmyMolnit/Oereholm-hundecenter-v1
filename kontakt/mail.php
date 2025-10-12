@@ -22,7 +22,7 @@ $nachricht = "Vorname: " . $vorname . "\n" . "Nachname: " . $nachname . "\n" . "
 $header = array(
 'MIME-Version' => '1.0',
 'Content-type' => 'text/plain; charset=utf-8',
-'From' => 'jimmy.molnit@gmail.com', // Hier muss die eigene Domain vermerkt werden
+'From' => 'info@hjimmymolnit.github.io', // Hier muss die eigene Domain vermerkt werden
 'Reply-To' => $email,
 'X-Mailer' => 'PHP/' . phpversion()
 );

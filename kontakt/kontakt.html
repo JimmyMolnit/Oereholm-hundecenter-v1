@@ -31,7 +31,21 @@
         </div>
         <!-- Indhold slutter -->
     </article>
-    <script src="filer.js"></script>
+    <script >
+
+        function GemIFil(Tekst){
+            const fs = require('fs')
+        fs.appendFile(Kontaktkald.txt, Tekst, err =>)
+            if (err) {
+            console.err;
+            return;
+            }
+        }
+
+        GemIFil("fornavn");
+
+       
+    </script>
 
 </body>
 </html>

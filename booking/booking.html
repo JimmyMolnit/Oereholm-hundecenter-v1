@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="da" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <title>Bookingformular</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel='stylesheet' type='text/css' href='styles.css' />
+    <link rel='stylesheet' type='text/css' href='mail.css' />
+    <style>
+    </style>
+</head>
+<body>
+    <h3>Booking anmodning</h3>
+    <article>
+        <!-- Indhold starter -->
+        <div id="form-wrap">
+            <form id="form" accept-charset="utf-8">
+                <label for="vorname">Fornavn*</label><br>
+                <input type="text" name="vorname" maxlength="100" value="" id="vorname" ><br>
+                <label for="nachname">Efternavn*</label><br>
+                <input type="text" size="100" name="nachname" maxlength="100" value="" id="nachname"><br>
+                <label for="email">Email*</label><br>
+                <input type="text" size="100" name="email" maxlength="100" value="" id="email" ><br>
+                <label for="telefon">Telefon</label><br>
+                <input type="text" size="100" name="telefon" maxlength="100" value="" id="telefon"><br>
+                <label for="omraade">Område</label><br>
+                <select id="omraade" name="omraade">
+                    <option value="miljoehal">Miljøhal</option>
+                    <option value="traeningshal">Træningshal</option>
+                    <option value="poppelstykket">Poppelstykket</option>
+                    <option value="frugtstykket">Frugtstykket</option>
+                    <option value="turstykket">Turstykket</option>
+                </select><br>
+                <label for="bdate"> Bookingdato</label><br>
+                <input type="date" id="bdate" mane="bdate"><br>
+                <label for="tid">Tidspunkt</label><br>
+                <select id="tid" name="tid">
+                    <option value="08">08:00-08:50</option>
+                    <option value="09">09:00-09:50</option>
+                    <option value="10">10:00-10:50</option>
+                    <option value="11">11:00-11:50</option>
+                    <option value="12">12:00-12:50</option>
+                    <option value="13">13:00-13:50</option>
+                    <option value="14">14:00-14:50</option>
+                    <option value="15">15:00-15:50</option>
+                    <option value="16">16:00-16:50</option>
+                    <option value="17">17:00-17:50</option>
+                    <option value="18">18:00-18:50</option>
+                </select><br>
+
+                <label for="nachricht">Besked*</label><br>
+                <textarea name="nachricht" rows="7" cols="50" maxlength="1000" id="nachricht"></textarea><br>
+                <input type="text" size="100" name="pot" maxlength="100" value="" >
+                <div id="submit">Send</div>
+            </form>
+            *Obiligatorisk felt
+        </div>
+        <!-- Indhold slutter -->
+    </article>
+    <script src="mail-js.js"></script>
+</body>
+</html>

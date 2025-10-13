@@ -51,18 +51,18 @@ document.querySelector("#submit").addEventListener("click", function (event) {
     if (allowedToSend) {
         allowedToSend = false;
     }
-    if (document.querySelector("#form input[name='fornavn']").value != ""
-            && document.querySelector("#form input[name='efternavn']").value != ""
+    if (document.querySelector("#form input[name='vorname']").value != ""
+            && document.querySelector("#form input[name='nachname']").value != ""
             && document.querySelector("#form input[name='email']").value != ""
-            && document.querySelector("#form textarea[name='besked']").value != ""
-// Her kan du tilføje dine egne obligatoriske felter i henhold til samme skema
+            && document.querySelector("#form textarea[name='nachricht']").value != ""
+    // Her kan du tilføje dine egne obligatoriske felter i henhold til samme skema
             && document.querySelector("#form input[name='pot']").value == ""
-        && isOverButton) { // honningkrukken
+            && isOverButton) { // der Honeypot
         const regexMail = /[!#$%&'\*\+\-\/=\?^_`\.{\|}~\w].*@[\w\-\._~]*\.[a-z]{2,}$/g;
         const checkMail = regexMail.test(document.querySelector("#form input[name='email']").value);
         if (checkMail) {
             const data = new FormData(form);
-            fetch("mail.php", {// stien til PHP- filen
+            fetch("mail.php", {// stien til PHP-filen
                 method: "POST",
                 body: data
             })
@@ -70,17 +70,17 @@ document.querySelector("#submit").addEventListener("click", function (event) {
                         for (let el of document.querySelectorAll("#form input,#form textarea")) {
                             el.value = "";
                         }
-                        setPopup("Tak, Emailen er sendt!");
+                        setPopup("Tak, e-mail sendt!");
                     })
                     .catch(function () {
                         allowedToSend = true;
-                        alert("Fejler");
+                        alert("Fehler");
                     });
         } else {
-            setPopup("Email ikke valid!");
+            setPopup("E-mail er ikke gyldig!");
         }
     } else {
 
         setPopup("Udfyld venligst de obligatoriske felter!");
     }
-}); 
+});

@@ -1,9 +1,9 @@
 <?php
-$fornavn = $_POST['fornavn'];
-$fornavn = wordwrap($fornavn, 70);
+$vorname = $_POST['vorname'];
+$vorname = wordwrap($vorname, 70);
 
-$efternavn = $_POST['efternavn'];
-$efternavn = wordwrap($efternavn, 70);
+$nachname = $_POST['nachname'];
+$nachname = wordwrap($nachname, 70);
 
 $email = $_POST['email'];
 $email = wordwrap($email, 70);
@@ -11,20 +11,20 @@ $email = wordwrap($email, 70);
 $tel = $_POST['telefon'];
 $tel = wordwrap($tel, 70);
 
-$besked = $_POST['besked'];
-$besked = wordwrap($besked, 70);
+$nachricht = $_POST['nachricht'];
+$nachricht = wordwrap($nachricht, 70);
 // Her kan du oprette yderligere formularfelter
 
-$modtager = "jimmy.molnit@gmail.com"; // Modtager Email
-$reference = "Forespørgsel";
-$besked = "Fornavn: " . $fornavn . "\n" . "Efternavn: " . $efternavn . "\n" . "Telefon: " . $tel . "\n" . "Email: " . $email . "\n" . "Besked: " . $besked;
+$empfaenger = "familien@jgmolnit.dk"; // Modtager e-mail
+$betreff = "Forespørgelse";
+$nachricht = "Fornavn: " . $vorname . "\n" . "Efternavn: " . $nachname . "\n" . "Telefon: " . $tel . "\n" . "Email: " . $email . "\n" . "Besked: " . $nachricht;
 // udvide om nødvendigt
 $header = array(
 'MIME-Version' => '1.0',
 'Content-type' => 'text/plain; charset=utf-8',
-'From' => 'info@jgmolnit.dk' // Dit eget domæne skal angives her
+'From' => 'info@jgmolnit.dk', // Dit eget domæne skal angives her
 'Reply-To' => $email,
-'X-Mailer' => 'PHP/' . phpversion(8.4)
+'X-Mailer' => 'PHP/' . phpversion()
 );
 
-mail($modtager, $reference, $besked, $header);
+mail($empfaenger, $betreff, $nachricht, $header);

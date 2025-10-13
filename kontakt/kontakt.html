@@ -15,15 +15,15 @@
         <div id="form-wrap">
             <form id="form" accept-charset="utf-8">
                 <label for="fornavn">Fornavn*</label><br>
-                <input type="text" name="fornavn" maxlength="100" value="" id="fornavn" ><br>
+                <input type="text" name="fornavn" maxlength="100" value="" id="fornavn"><br>
                 <label for="Efternavn">Efternavn*</label><br>
-                <input type="text" size="100" name="efternavn" maxlength="100" value="" id="efternavn" ><br>
+                <input type="text" size="100" name="efternavn" maxlength="100" value="" id="efternavn"><br>
                 <label for="email">Email*</label><br>
-                <input type="text" size="100" name="email" maxlength="100" value="" id="email" ><br>
+                <input type="text" size="100" name="email" maxlength="100" value="" id="email"><br>
                 <label for="telefon">Telefon</label><br>
-                <input type="text" size="100" name="telefon" maxlength="100" value="" id="telefon" ><br>
+                <input type="text" size="100" name="telefon" maxlength="100" value="" id="telefon"><br>
                 <label for="besked">Besked*</label><br>
-                <textarea name="besked" rows="7" cols="50" maxlength="1000" id="Besked" ></textarea><br>
+                <textarea name="besked" rows="7" cols="50" maxlength="1000" id="Besked"></textarea><br>
                 <input type="text" size="100" name="pot" maxlength="100" value="">
                 <div id="submit">Send</div>
             </form>
@@ -31,21 +31,7 @@
         </div>
         <!-- Indhold slutter -->
     </article>
-    <script >
-
-        function GemIFil(Tekst){
-            const fs = require('fs')
-        fs.appendFile(Kontaktkald.txt, Tekst, err =>)
-            if (err) {
-            console.err;
-            return;
-            }
-        }
-
-        GemIFil("fornavn");
-
-       
-    </script>
+    <script src="mail-js.js"></script>
 
 </body>
 </html>

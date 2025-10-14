@@ -4,18 +4,15 @@ function getParameter(parameterName) {
     let parameters = new URLSearchParams(window.location.search);
     return parameters.get(parameterName);
 }
-
-/*if (getParameter("fornavn").value === undefined) {
-    document.getElementById("vorname").value = "";
-}
-else if (getParameter("fornavn").value != "") {
-    //console.log(getParameter("fornavn"));
-    document.getElementById("vorname").value = getParameter("fornavn");
-}*/
 if (getParameter("omraade").value != "") {
     //console.log(getParameter("omraade"));
     document.getElementById("omraade").value = getParameter("omraade");
 }
+
+ /*if (getParameter("fornavn").value != "") {
+    //console.log(getParameter("fornavn"));
+    document.getElementById("vorname").value = getParameter("fornavn");
+}*/
 function setPopup(text) {
     var isOver = false;
     const popup = document.createElement("div");

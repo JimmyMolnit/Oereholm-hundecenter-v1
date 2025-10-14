@@ -6,6 +6,9 @@ body {
 h3 {
     text-align: center;
 }
+p {
+    text-align: center;
+}
 article {
     width:100%;
     max-width:1300px;
@@ -13,12 +16,12 @@ article {
     margin-top:0px;
     font-size:18px;
     line-height:1.5;
-    padding:30px;
+    padding:10px;
     box-sizing:border-box;  
 }
 #form-wrap {    
     max-width:500px;
-    margin: 50px auto;
+    margin: 10px auto;
 }
 label {
    font-weight: 500; 

@@ -16,13 +16,13 @@
         <div id="form-wrap">
             <form id="form" accept-charset="utf-8">
                 <label for="vorname">Fornavn*</label><br>
-                <input type="text" name="vorname" maxlength="100" value="" id="vorname" ><br>
+                <input type="text" name="vorname" maxlength="100" value="" id="vorname" placeholder="Dit fornavn"><br>
                 <label for="nachname">Efternavn*</label><br>
-                <input type="text" size="100" name="nachname" maxlength="100" value="" id="nachname"><br>
+                <input type="text" size="100" name="nachname" maxlength="100" value="" id="nachname" placeholder="Dit efternavn"><br>
                 <label for="email">Email*</label><br>
-                <input type="text" size="100" name="email" maxlength="100" value="" id="email" ><br>
+                <input type="text" size="100" name="email" maxlength="100" value="" id="email" placeholder="Din email"><br>
                 <label for="telefon">Telefon</label><br>
-                <input type="text" size="100" name="telefon" maxlength="100" value="" id="telefon"><br>
+                <input type="text" size="100" name="telefon" maxlength="100" value="" id="telefon" placeholder="Dit telenon nr."><br>
                 <label for="omraade">Område</label><br>
                 <select id="omraade" name="omraade">
                     <option value="miljoehal">Miljøhal</option>
@@ -32,7 +32,7 @@
                     <option value="turstykket">Turstykket</option>
                 </select><br>
                 <label for="bdate"> Bookingdato</label><br>
-                <input type="date" id="bdate" mane="bdate"><br>
+                <input type="date" id="bdate" name="bdate"><br>
                 <label for="tid">Tidspunkt</label><br>
                 <select id="tid" name="tid">
                     <option value="08">08:00-08:50</option>
@@ -47,10 +47,9 @@
                     <option value="17">17:00-17:50</option>
                     <option value="18">18:00-18:50</option>
                 </select><br>
-
                 <label for="nachricht">Besked*</label><br>
-                <textarea name="nachricht" rows="7" cols="50" maxlength="1000" id="nachricht"></textarea><br>
-                <input type="text" size="100" name="pot" maxlength="100" value="" >
+                <textarea name="nachricht" rows="7" cols="50" maxlength="1000" id="nachricht"  placeholder="Din besked"></textarea><br>
+                <input type="text" size="100" name="pot" maxlength="100" value="">
                 <div id="submit">Send</div>
             </form>
             *Obiligatorisk felt
@@ -58,5 +57,6 @@
         <!-- Indhold slutter -->
     </article>
     <script src="mail-js.js"></script>
+    <p><a href="https://jimmymolnit.github.io/Oereholm-hundecenter-v1/">Retur til Øreholmgaard hundecenter</a></p>
 </body>
 </html>

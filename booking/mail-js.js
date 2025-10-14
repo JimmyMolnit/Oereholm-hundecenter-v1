@@ -1,5 +1,18 @@
 var allowedToSend = true;
 var isOverButton = false;
+function getParameter(parameterName) {
+    let parameters = new URLSearchParams(window.location.search);
+    return parameters.get(parameterName);
+}
+
+if (getParameter("fornavn").value != "") {
+    //console.log(getParameter("fornavn"));
+    document.getElementById("vorname").value = getParameter("fornavn");
+}
+if (getParameter("omraade").value != "") {
+    //console.log(getParameter("omraade"));
+    document.getElementById("omraade").value = getParameter("omraade");
+}
 function setPopup(text) {
     var isOver = false;
     const popup = document.createElement("div");
@@ -56,7 +69,7 @@ document.querySelector("#submit").addEventListener("click", function (event) {
             && document.querySelector("#form input[name='email']").value != ""
         && document.querySelector("#form textarea[name='nachricht']").value != ""
         && document.querySelector("#form select[name='omraade']").value != ""
-       // && document.querySelector("#form input[name='#bdate']").value != ""
+        && document.querySelector("#form input[name='bdate']").value != ""
         && document.querySelector("#form select[name='tid']").value != ""
     // Her kan du tilføje dine egne obligatoriske felter i henhold til samme skema
             && document.querySelector("#form input[name='pot']").value == ""

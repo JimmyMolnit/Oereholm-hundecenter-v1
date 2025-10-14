@@ -62,8 +62,8 @@ på dem inden jeg spurgte om hjælp.
 
 Jeg spurgte også lidt intil hvordan jeg kunne løse nogle de ting der undrede mig og har fået svar på de fleste lå uden for scoopet 
 her, men jeg vil kigge ind i dem efter kurset, så PHP må være vjen frem hvis skal have backend på siden.
-En enkelt ting kunne løses med javascript, det var mere nice to end need to, og jeg  er ikke stærkt i javascript, så måske den 
-bliver løst hvis der er tid og overskud.
+En enkelt ting kunne løses med javascript, man kunne afhængi af hvor man kommer fra rette området på booking formularen så det nu 
+sat op, den vil fejl hvis men ikke for det med i URLen, det er ikke stærk kon i java til at fikse lige nu, så det må komme senere.   
 
 Det har værer en god rejse og jeg har lært en masse muligheder med HTML og CSS og jeg har større kenskab til JAVASCRIPT, som jeg 
 ikke har brugt før

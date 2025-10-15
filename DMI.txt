@@ -1,0 +1,34 @@
+DMI
+climate data api key
+f4c1dfaa-7d06-4328-9e0e-c574fd0191e8
+
+https://opendatadocs.dmi.govcloud.dk/en/APIs/Climate_Data_API
+
+curl -X GET "https://dmigw.govcloud.dk/v2/climateData" -H "X-Gravitee-Api-Key: f4c1dfaa-7d06-4328-9e0e-c574fd0191e8"
+
+https://dmigw.govcloud.dk/v2/climateData/collections/stationValue/items?api-key=f4c1dfaa-7d06-4328-9e0e-c574fd0191e8
+
+https://dmigw.govcloud.dk/v2/climateData/collections/station/items?api-key=f4c1dfaa-7d06-4328-9e0e-c574fd0191e8
+
+Stationsnavn: Flakkebjerg
+StationsID: 06135
+Breddegrad: 55.3224
+Længdegrad: 11.3879
+Stationshøjde: 32.5 m
+Stationstype: Synop
+Land: Danmark
+Station opsat: 6 jun 2001
+Status: Aktiv
+Stationsejer: DMI
+https://dmigw.govcloud.dk/v2/climateData/collections/stationValue/items?stationId=06135&api-key=f4c1dfaa-7d06-4328-9e0e-c574fd0191e8
+
+forecastdataAPI
+60826f00-190c-4b02-b1bc-344797416ccf
+
+curl -X GET "https://dmigw.govcloud.dk/v1/forecastedr" -H "X-Gravitee-Api-Key: 60826f00-190c-4b02-b1bc-344797416ccf"
+
+https://dmigw.govcloud.dk/v1/forecastedr/collections/dkss_nsbs/cube?bbox=11,55,12,56&crs=crs84&parameter-name=water-temperature,salinity&api-key=60826f00-190c-4b02-b1bc-344797416ccf
+
+km10 celle 
+10km_612_85
+

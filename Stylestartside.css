@@ -189,13 +189,9 @@ nav {
     .booking_periode {
     padding: 10px;
     float: left;
-    width: 15%
-    tekst
+    width: 15%;
     }
         .booking_periode-tekst {
-        /*padding: 5px;*/
-        /*float: left;
-        width: 10% ;*/
         font-size: 12px;
         color: gray;
         }

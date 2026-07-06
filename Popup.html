@@ -1,0 +1,33 @@
+﻿<!DOCTYPE html>
+
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="utf-8" />
+    <meta charset="utf-8">
+    <title>Øreholmgaard hundecenter pop up</title>
+    <link rel="stylesheet" href="StylesheetPopup.css">
+</head>
+<body>
+    <h1>Mit første Popup side</h1>
+    <div class="container">
+        <button type="submit" class="btn" onclick="openPopup()"> Indsend</button>
+        <div class="popup" id="popup">
+            <img src="Billeder/tick.png" />
+            <h2>Tak!</h2>
+            <p>Dine detaljer er gemt succesfuldt, Tak</p>
+            <button type="button" onclick="closePopup()"> OK</button>
+        </div>
+    </div>
+   
+    <script>
+        let popup = document.getElementById("popup");
+
+        function openPopup() {
+            popup.classList.add("open-popup");
+        }
+        function closePopup() {
+            popup.classList.remove("open-popup");
+        }
+    </script>
+</body>
+</html>

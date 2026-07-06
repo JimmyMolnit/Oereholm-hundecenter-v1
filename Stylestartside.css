@@ -174,36 +174,105 @@ nav {
         text-align: center;
         margin: auto;
     }
-/*
-.itema {
-    /*background-color: tomato;*/
-        /*text-align: center;*
-    }*/
-    /*
-.itemb {
-    /*background-color: mediumorchid;*/
-    /*text-align: center;
-}*/
-/*
-.itemc {
-    /*background-color: royalblue;*/
-    /*text-align: center;
-}*/
-/*
-.itemd {
-    /*background-color: mediumseagreen;*/
-    /*text-align: center;
-}*/
-/*
-.iteme {
-    /*background-color: orange;*/
-    /*text-align: center;}*/
+.booking {
+    /*background: #ff0000;*/
+    float: left;
+    width: 100%;
+    border:5px;
+    border-radius: 6px;
+    border-left-color: deepskyblue;
+    border-left-style: inset;
+    box-shadow: rgb(209, 213, 215) 0px 2px 2px -1px;
+    padding: 2px;
+    margin-bottom: 10px;
+}
+    .booking_periode {
+    padding: 10px;
+    float: left;
+    width: 15%
+    tekst
+    }
+        .booking_periode-tekst {
+        /*padding: 5px;*/
+        /*float: left;
+        width: 10% ;*/
+        font-size: 12px;
+        color: gray;
+        }
+        .booking_periode-dato{
 
-/*.itemf {
-    /*background-color: gray;*/
-    /*text-align: center;}
-*/
+        }
+        .booking_periode-dato_dag{
+            font-size: 20px;
+            font-weight: bold;
+        }
+        .booking_periode-dato_maaned {
+            font-size: 12px;
+        }
+        .booking_periode-tid {
+            font-size: 12px;
+            color: dimgrey;
+        }
+    .booking_billede {
+        float: left;
+        width: 15%;
+    }
+        .booking_billede img {
+            width: 5em;
+            height: auto;
+            border-radius: 6px;
+        }
+    .booking_info {
+        float: left;
+        width: 58%;
+        color: dimgrey;
+    }
+        .booking_info-navn{
+            font-weight: bold;
+        }
+        .booking_info-lokation {
 
+        }
+        .booking_info-andre{
+
+        }
+        .booking_info-tilgaengelighed_aaben {
+            display: inline-block;
+            color: green;
+            font-weight: bold;
+        }
+        .booking_info-tilgaengelighed_lukket {
+            display: inline-block;
+            color: red;
+            font-weight: bold;
+        }
+        .booking_info-kapacitet {
+            display: inline-block;
+        }
+        .booking_info-kapacitet_nummer {
+            font-weight: bold;
+        }
+    .booking_handling {
+        float: left;
+        width: 15%;
+        text-align-last:end;
+    }
+        .booking_handling-pris {
+            color: #265CF2;
+            font-weight: bold;
+        }
+        .booking_handling-knap{
+            text-align-last:inherit;
+}
+    .booking-knap {
+        background-color: #265CF2;
+        border-radius: 6px;
+        border-style:none;
+        padding: 5px;
+    }
+        .booking-knap_indhold{
+            color:white;
+        }
 
 
 
